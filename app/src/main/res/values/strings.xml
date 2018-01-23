@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Score Keeper app</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="stat">0</string>
+    <string name="goal">GOAL</string>
+    <string name="corners">CORNERS</string>
+    <string name="YCARDS">YELLOW CARDS</string>
+    <string name="RCARDS">RED CARDS</string>
+    <string name="tStyle">sans-serif</string>
+    <string name="reset">RESET</string>
+
+
+</resources>

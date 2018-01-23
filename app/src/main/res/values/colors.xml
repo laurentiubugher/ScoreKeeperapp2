@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="outsideTextColor">#3F51B5</color>
+    <color name="insideTextColor">#212121</color>
+    <color name="background_goal_button">#99607D8B</color>
+    <color name="background_corners_button">#99FF9100</color>
+    <color name="background_yCards_button">#99FFEA00</color>
+    <color name="background_rCards_button">#99F44336</color>
+    <color name="view_background">#D50000</color>
+    <color name="corner_stat_color">#FF9100</color>
+    <color name="yCards_stat_color">#FFEA00</color>
+    <color name="rCards_stat_color">#F44336</color>
+
+
+
+
+</resources>
