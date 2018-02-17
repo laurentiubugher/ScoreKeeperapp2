@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt("yellowTeamB", yellowTeamB);
         outState.putInt("redTeamA", redTeamA);
         outState.putInt("redTeamB", redTeamB);
-
         super.onSaveInstanceState(outState);
     }
 
@@ -46,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         yellowTeamB = savedInstanceState.getInt("yellowTeamB");
         redTeamA = savedInstanceState.getInt("redTeamA");
         redTeamB = savedInstanceState.getInt("redTeamB");
-
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
         displayCornersForTeamA(cornersTeamA);
@@ -60,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Team A.
      */
     public void displayForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
+        TextView scoreView = findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
     /**
@@ -81,14 +79,14 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Team B.
      */
     public void displayForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
+        TextView scoreView = findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
     /**
      * Displays the given corners for Team A.
      */
     public void displayCornersForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.corners_team_a);
+        TextView scoreView = findViewById(R.id.corners_team_a);
         scoreView.setText(String.valueOf(score));
     }
     /**
@@ -102,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given corners for Team B.
      */
     public void displayCornersForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.corners_team_b);
+        TextView scoreView = findViewById(R.id.corners_team_b);
         scoreView.setText(String.valueOf(score));
     }
     /**
@@ -116,14 +114,14 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given yellow cards for Team A.
      */
     public void displayYellowCardsForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.yellow_cards_a);
+        TextView scoreView = findViewById(R.id.yellow_cards_a);
         scoreView.setText(String.valueOf(score));
     }
     /**
      * Displays the given yellow cards for Team B.
      */
     public void displayYellowCardsForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.yellow_cards_b);
+        TextView scoreView = findViewById(R.id.yellow_cards_b);
         scoreView.setText(String.valueOf(score));
     }
     /**
@@ -144,14 +142,14 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given red cards for Team A.
      */
     public void displayRedCardsForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.red_cards_a);
+        TextView scoreView = findViewById(R.id.red_cards_a);
         scoreView.setText(String.valueOf(score));
     }
     /**
      * Displays the given red cards for Team B.
      */
     public void displayRedCardsForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.red_cards_b);
+        TextView scoreView = findViewById(R.id.red_cards_b);
         scoreView.setText(String.valueOf(score));
     }
     /**
@@ -167,8 +165,8 @@ public class MainActivity extends AppCompatActivity {
     public void addRedCardsTeamB(View v) {
         redTeamB = redTeamB + 1;
         displayRedCardsForTeamB(redTeamB);
-        //The reset button
     }
+    //The reset button
     public void reset(View v) {
         scoreTeamA = 0;
         scoreTeamB = 0;

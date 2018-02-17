@@ -32,7 +32,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@string/tStyle"
+                    android:fontFamily="sans-serif"
                     android:gravity="center"
                     android:text="@string/teamA"
                     android:textColor="@color/insideTextColor"
@@ -43,23 +43,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/score_margin_bottom"
-                    android:fontFamily="@string/tStyle"
+                    android:fontFamily="sans-serif"
                     android:gravity="center"
                     android:text="@string/stat"
                     android:textColor="@color/outsideTextColor"
                     android:textSize="@dimen/score_text_size" />
 
                 <Button
-                    android:layout_marginLeft="@dimen/margin_left"
-                    android:background="@color/background_goal_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/goal_margin_RandL"
+                    android:layout_marginLeft="@dimen/margin_left"
                     android:layout_marginRight="@dimen/goal_margin_RandL"
-                    android:fontFamily="@string/tStyle"
+                    android:layout_marginStart="@dimen/margin_left"
+                    android:background="@color/background_goal_button"
+                    android:fontFamily="sans-serif"
                     android:onClick="addOneGoalForTeamA"
                     android:text="@string/goal"
                     android:textColor="@color/insideTextColor"
-                    android:textSize="@dimen/buttons_text_size"/>
+                    android:textSize="@dimen/buttons_text_size" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -68,23 +70,24 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:textSize="@dimen/buttons_text_size"
-                        android:layout_marginLeft="@dimen/margin_left"
-                        android:background="@color/background_corners_button"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_left"
+                        android:layout_marginStart="@dimen/margin_left"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:background="@color/background_corners_button"
+                        android:fontFamily="sans-serif"
                         android:onClick="addCornersTeamA"
                         android:text="@string/corners"
-                        android:textColor="@color/insideTextColor"/>
+                        android:textColor="@color/insideTextColor"
+                        android:textSize="@dimen/buttons_text_size" />
 
                     <TextView
                         android:id="@+id/corners_team_a"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:fontFamily="sans-serif"
                         android:gravity="center"
                         android:text="@string/stat"
                         android:textColor="@color/corner_stat_color"
@@ -99,23 +102,24 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:textSize="@dimen/buttons_text_size"
-                        android:layout_marginLeft="@dimen/margin_left"
-                        android:background="@color/background_yCards_button"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_left"
+                        android:layout_marginStart="@dimen/margin_left"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:background="@color/background_yCards_button"
+                        android:fontFamily="sans-serif"
                         android:onClick="addYellowCardsTeamA"
                         android:text="@string/YCARDS"
-                        android:textColor="@color/insideTextColor"/>
+                        android:textColor="@color/insideTextColor"
+                        android:textSize="@dimen/buttons_text_size" />
 
                     <TextView
                         android:id="@+id/yellow_cards_a"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:fontFamily="sans-serif"
                         android:gravity="center"
                         android:text="@string/stat"
                         android:textColor="@color/yCards_stat_color"
@@ -128,23 +132,24 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:textSize="@dimen/buttons_text_size"
-                        android:layout_marginLeft="@dimen/margin_left"
-                        android:background="@color/background_rCards_button"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_left"
+                        android:layout_marginStart="@dimen/margin_left"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:background="@color/background_rCards_button"
+                        android:fontFamily="sans-serif"
                         android:onClick="addRedCardsTeamA"
                         android:text="@string/RCARDS"
-                        android:textColor="@color/insideTextColor"/>
+                        android:textColor="@color/insideTextColor"
+                        android:textSize="@dimen/buttons_text_size" />
 
                     <TextView
                         android:id="@+id/red_cards_a"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:fontFamily="sans-serif"
                         android:gravity="center"
                         android:text="@string/stat"
                         android:textColor="@color/rCards_stat_color"
@@ -166,7 +171,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@string/tStyle"
+                    android:fontFamily="sans-serif"
                     android:gravity="center"
                     android:text="@string/teamB"
                     android:textColor="@color/insideTextColor"
@@ -177,23 +182,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/score_margin_bottom"
-                    android:fontFamily="@string/tStyle"
+                    android:fontFamily="sans-serif"
                     android:gravity="center"
                     android:text="@string/stat"
                     android:textColor="@color/outsideTextColor"
                     android:textSize="@dimen/score_text_size" />
 
                 <Button
-                    android:textSize="@dimen/buttons_text_size"
-                    android:layout_marginRight="@dimen/margin_right"
-                    android:background="@color/background_goal_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_right"
                     android:layout_marginLeft="@dimen/goal_margin_RandL"
-                    android:fontFamily="@string/tStyle"
+                    android:layout_marginRight="@dimen/margin_right"
+                    android:layout_marginStart="@dimen/goal_margin_RandL"
+                    android:background="@color/background_goal_button"
+                    android:fontFamily="sans-serif"
                     android:onClick="addOneGoalToTeamB"
                     android:text="@string/goal"
-                    android:textColor="@color/insideTextColor"/>
+                    android:textColor="@color/insideTextColor"
+                    android:textSize="@dimen/buttons_text_size" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -206,23 +213,24 @@
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:fontFamily="sans-serif"
                         android:gravity="center"
                         android:text="@string/stat"
                         android:textColor="@color/corner_stat_color"
                         android:textSize="@dimen/stats_text_size" />
 
                     <Button
-                        android:textSize="@dimen/buttons_text_size"
-                        android:layout_marginRight="@dimen/margin_right"
-                        android:background="@color/background_corners_button"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/margin_right"
+                        android:layout_marginRight="@dimen/margin_right"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:background="@color/background_corners_button"
+                        android:fontFamily="sans-serif"
                         android:onClick="addCornersTeamB"
                         android:text="@string/corners"
-                        android:textColor="@color/insideTextColor"/>
+                        android:textColor="@color/insideTextColor"
+                        android:textSize="@dimen/buttons_text_size" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -237,23 +245,24 @@
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:fontFamily="sans-serif"
                         android:gravity="center"
                         android:text="@string/stat"
                         android:textColor="@color/yCards_stat_color"
                         android:textSize="@dimen/stats_text_size" />
 
                     <Button
-                        android:textSize="@dimen/buttons_text_size"
-                        android:layout_marginRight="@dimen/margin_right"
-                        android:background="@color/background_yCards_button"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/margin_right"
+                        android:layout_marginRight="@dimen/margin_right"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:background="@color/background_yCards_button"
+                        android:fontFamily="sans-serif"
                         android:onClick="addYellowCardsTeamB"
                         android:text="@string/YCARDS"
-                        android:textColor="@color/insideTextColor" />
+                        android:textColor="@color/insideTextColor"
+                        android:textSize="@dimen/buttons_text_size" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -266,38 +275,39 @@
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:fontFamily="sans-serif"
                         android:gravity="center"
                         android:text="@string/stat"
                         android:textColor="@color/rCards_stat_color"
                         android:textSize="@dimen/stats_text_size" />
 
                     <Button
-                        android:textSize="@dimen/buttons_text_size"
-                        android:layout_marginRight="@dimen/margin_right"
-                        android:background="@color/background_rCards_button"
                         android:layout_width="@dimen/width_0"
                         android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/margin_right"
+                        android:layout_marginRight="@dimen/margin_right"
                         android:layout_weight="1"
-                        android:fontFamily="@string/tStyle"
+                        android:background="@color/background_rCards_button"
+                        android:fontFamily="sans-serif"
                         android:onClick="addRedCardsTeamB"
                         android:text="@string/RCARDS"
-                        android:textColor="@color/insideTextColor"/>
+                        android:textColor="@color/insideTextColor"
+                        android:textSize="@dimen/buttons_text_size" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
         <Button
-            android:textSize="@dimen/buttons_text_size"
-            android:background="@color/background_goal_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/reset_margin_bottom"
-            android:fontFamily="@string/tStyle"
+            android:background="@color/background_goal_button"
+            android:fontFamily="sans-serif"
             android:onClick="reset"
             android:text="@string/reset"
-            android:textColor="@color/insideTextColor"/>
+            android:textColor="@color/insideTextColor"
+            android:textSize="@dimen/buttons_text_size" />
     </RelativeLayout>
 </ScrollView>

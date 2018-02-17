@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
     <dimen name="team_text_size">22sp</dimen>
     <dimen name="buttons_text_size">18sp</dimen>
@@ -14,14 +13,4 @@
     <dimen name="layout_margin_TandB">24dp</dimen>
     <dimen name="reset_margin_bottom">26dp</dimen>
     <dimen name="view_width">1dp</dimen>
-
-
-
-
-
-
-
-
-
-
 </resources>

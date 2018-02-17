@@ -7,8 +7,5 @@
     <string name="corners">CORNERS</string>
     <string name="YCARDS">YELLOW CARDS</string>
     <string name="RCARDS">RED CARDS</string>
-    <string name="tStyle">sans-serif</string>
     <string name="reset">RESET</string>
-
-
 </resources>
